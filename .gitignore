@@ -1,0 +1,11 @@
+# mac
+.DS_Store
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# pyhonの仮想環境を無視
+.venv/
+
+.ruff_cache

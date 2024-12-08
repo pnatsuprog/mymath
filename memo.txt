@@ -1,0 +1,15 @@
+uv自体をアップデート
+uv self update
+
+プロジェクトをセットアップ
+uv init
+
+pyproject.tomlをもとに、 .venv と uv.lock が作成される
+uv sync
+
+全てのパッケージを再インストールする場合は以下のコマンドを実行する
+uv sync --reinstall
+
+仮想環境を有効化する
+. .venv/bin/activate
+
