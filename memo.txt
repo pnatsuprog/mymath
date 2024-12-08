@@ -13,3 +13,11 @@ uv sync --reinstall
 仮想環境を有効化する
 . .venv/bin/activate
 
+仮想環境を無効化
+deactivate
+
+パッケージの追加、削除
+uv add numpy
+uv add "numpy==1.26.4"　#バージョン指定
+uv add jupyterlab --dev # 開発用の依存パッケージとして
+uv remove numpy
